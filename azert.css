@@ -1,0 +1,45 @@
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  background-color: rgba(218, 165, 32, 0.892);
+  height: 35vh;
+  padding-left: 6vh;
+  border-radius: 20px;
+}
+body h1 {
+  color: rgba(255, 0, 255, 0.273);
+
+  margin-left: 10vw;
+}
+
+section p {
+  margin-left: 10vw;
+}
+.colum {
+  display: flex;
+  flex-direction: column;
+}
+#containt {
+  height: 5vh;
+  width: 20vw;
+  border-radius: 15px;
+  border: none;
+  text-align: center;
+  font-size: 20px;
+}
+body {
+  width: 32vw;
+  height: 60vh;
+  margin: 10vw 55vh;
+}
+#mots {
+  height: 4vh;
+  width: 15vw;
+  border-color: transparent;
+  border: none;
+}
+#validation {
+  height: 4vh;
+  cursor: pointer;
+}
